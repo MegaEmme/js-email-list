@@ -10,14 +10,18 @@ let mail = '';
 
 for (let i=0; i< 10; i++) {
 
-axios.get(mailBoolean).then((response) =>{
+    axios.get(mailBoolean)
 
-    mail += `<div id="mail-list">${response.data.response}</div>`
+    .then((response) =>{
 
-mailListElement.innerHTML = mail;
-})
-.catch(error => {
-    console.log('errore')
-})
+        mail += `<div id="mail-list">${response.data.response}</div>`;
 
-}
+        mailListElement.innerHTML = mail;
+
+    })
+
+    .catch(error => {
+        console.log('errore');
+    })
+
+};
