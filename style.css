@@ -12,6 +12,8 @@
     width: 100%;
     margin: 0 auto;
     max-width: 1200px;
+    display: flex;
+    flex-direction: column;
 }
 
 h1{
@@ -44,5 +46,20 @@ li{
 }
 
 li:hover{
+    background-color: bisque;
+}
+
+button{
+    padding: 20px;
+    width: 20%;
+    align-self: center;
+    margin-top: 20px;
+    background-color: aqua;
+    border-radius: 40px;
+    box-shadow: 10px 10px lightblue;
+    color: purple;
+}
+
+button:hover{
     background-color: bisque;
 }
