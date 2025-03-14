@@ -18,7 +18,7 @@ for (let i=0; i< 10; i++) {
 
     .then((response) =>{
 
-        mail += `<li id="mail-list">${response.data.response}</li>`;
+        mail += `<li>${response.data.response}</li>`;
 
         mailListElement.innerHTML = mail;
 
