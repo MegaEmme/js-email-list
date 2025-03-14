@@ -7,9 +7,9 @@
 }
 
 .container{
-    height: 100vh;
-    padding-top: 20vh;
-
+    height: 100%;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     width: 100%;
     margin: 0 auto;
     max-width: 1200px;
@@ -21,7 +21,8 @@
 h1{
     text-align: center;
     margin-bottom: 5vh;
-    color: bisque;
+    color: rgb(245, 159, 55);
+    font-size: 40px;
 }
 
 .list{
@@ -49,6 +50,8 @@ li{
 
 li:hover{
     background-color: bisque;
+    transform: scale(1.1,1.1);
+    transition: all 1s;
 }
 
 button{
@@ -56,13 +59,14 @@ button{
     width: 20%;
     align-self: center;
     margin-top: 20px;
-
     background-color: aqua;
     border-radius: 40px;
-    box-shadow: 10px 10px lightblue;
+    box-shadow: 0 0 10px 10px rgb(221, 230, 173);
     color: purple;
 }
 
 button:hover{
     background-color: bisque;
+    transform: scale(1.2,1.2);
+    transition: all 1s;
 }
