@@ -25,7 +25,7 @@ for (let i=0; i< 10; i++) {
     })
    
     .catch(error => {
-        console.log('errore');
+        console.error('errore');
     })
 
 }
@@ -47,7 +47,7 @@ buttonElement.addEventListener('click', function(){
         })
     
         .catch(error => {
-            console.log('errore');
+            console.error('errore');
         })
 
     }
